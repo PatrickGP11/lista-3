@@ -1,4 +1,9 @@
-num1 = parseInt(prompt("Digite o primeiro número: "));
-num2 = parseInt(prompt("Digite o segundo número: "));
-soma = num1 * num2;
-alert("O numero multiplicado é: " + soma);
+var numero = Number(prompt("Digite um número"))
+
+if(numero == 0) {
+    alert("0")
+}else if (numero > 0) {
+    alert("Positivo")
+}else {
+    alert("Negativo")
+}

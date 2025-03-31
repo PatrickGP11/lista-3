@@ -1,4 +1,11 @@
-var numero = Number(prompt ("Digite um numero para descobrir o sucessor"))
-var sucessor = numero + 1
+var primeiraIdade = Number(prompt("Digite uma idade"))
 
-alert(sucessor)
+var segundaIdade= Number(prompt("Digite outra idade"))
+
+if(primeiraIdade == segundaIdade) {
+    alert("idade Iguais")
+}else if (primeiraIdade < segundaIdade) {
+    alert(`${primeiraIdade} é maior que a ${segundaIdade}`)
+}else {
+    alert(`${primeiraIdade} é maior que a ${segundaIdade}`)
+}

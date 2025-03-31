@@ -1,5 +1,7 @@
-var idade = 18
-if (idade = 15)
+var idade = Number(prompt("Digite sua idade"))
 
-alert("Pode Entrar")
-
+if (idade >= 16) {
+alert("Pode Entrar!") 
+}else {
+    alert("Não pode entrar!")
+}

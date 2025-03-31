@@ -1,4 +1,7 @@
-num1 = parseInt(prompt("Digite o primeiro número: "));
-num2 = parseInt(prompt("Digite o segundo número: "));
-soma = num1 + num2;
-alert (`A soma do ${num1} + ${num2} = ${soma}`)
+var idade = Number(prompt("Digite sua idade"))
+
+if (Idade >= 18) {
+    alert("Pode tirar a habilitação")
+}else {
+    alert("Não pode tirar habilitação")
+}
